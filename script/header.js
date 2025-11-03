@@ -1,6 +1,6 @@
 // list of pages that show up in the navbar where i is the html ID, fpath is the file path (make sure to start with / for absolute path!), and dtext is the text that shows up in the navbar!
-let pages = [{i:"index", fpath:"index.html", dtext:"Home"},
-             {i:"Challenges", fpath:"html/challenges.html", dtext:"Challenges"},
+let pages = [{i:"index", fpath:"../index.html", dtext:"Home"},
+             {i:"Challenges", fpath:"../html/challenges.html", dtext:"Challenges"},
             ]
 
 let h1 = `
@@ -9,7 +9,7 @@ let h1 = `
     class="d-flex flex-wrap align-items-center justify-content-center justify-content-xl-between py-3 mb-4 border-bottom">
     <!-- Header Section 1 -->
     <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"><img
-        src="assets/KeyPointsLogo.png" alt="Logo" width="60" height="60"></a>
+        src="../assets/KeyPointsLogo.png" alt="Logo" width="60" height="60"></a>
     <!-- Header Section 2 -->
     <ul class="nav col-12 ps-3 col-xl-auto mb-2 justify-content-center mb-lg-0">
       <!--Navbar in header-->
